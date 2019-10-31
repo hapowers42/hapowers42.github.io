@@ -2,12 +2,23 @@
   <head>
     <title>cool site</title>
     <style>
-      marquee {
+      .rainbow-text {
         font-family: "comic sans ms", "sans-serif";
+        background-image: repeating-linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+        animation: rainbow 8s ease infinite;
+      }
+      body {
+        background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        animation: rainbow 8s ease infinite;
+      }
+      @keyframes rainbow { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 25%}
+        100%{background-position:0% 50%}
       }
     </style>
   </head>
   <body>
-    <marquee>WOW COOL SITE</marquee>
+    <marquee class = "rainbow-text">WOW COOL SITE</marquee>
   </body>
 </html>
