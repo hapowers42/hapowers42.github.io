@@ -4,7 +4,7 @@ function initWavyText(id) {
     div.removeChild(div.firstElementChild);
 
     for (let i = 0; i < text.length; i++) {
-        let el = document.createElement('div');
+        let el = document.createElement('span');
         el.className = "heading";
         let textEl = document.createElement("p")
         textEl.appendChild(document.createTextNode(text.charAt(i)))
