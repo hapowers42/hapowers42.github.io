@@ -20,8 +20,6 @@ initWavyText();
 let time = 0;
 let period = 2;
 
-let wavyText = document.getElementById("wavy");
-
 function anim() {
     if (period * time > 2 * Math.PI) {
         time = 0;
