@@ -6,10 +6,8 @@ function initWavyText() {
 
         for (let i = 0; i < text.length; i++) {
             let el = document.createElement('span');
-            let textEl = document.createElement("p")
-            textEl.appendChild(document.createTextNode(text.charAt(i)))
+            el.innerHTML = text.charAt(i);
             el.setAttribute("phase", i);
-            el.appendChild(textEl);
             span.appendChild(el)
         }
     }
