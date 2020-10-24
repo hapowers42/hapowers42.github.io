@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-#wavy {
-    display: flex;
+.wavy {
+    display: inline-flex;
     justify-content: left;
     flex-wrap: wrap;
-    white-space: pre;
+    white-space: pre-wrap;
 }
 
-.heading {
+h2 {
     font-family: 'Fredoka One', sans-serif;
     font-size: 50px;
+    margin: 0px;
 }
 
 p {
