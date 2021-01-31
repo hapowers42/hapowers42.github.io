@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .wavy {
     display: inline-flex;
     justify-content: left;
     flex-wrap: wrap;
     white-space: pre-wrap;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
